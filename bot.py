@@ -2,12 +2,12 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Replace with your new token (NEVER share it publicly!)
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "7657409506:AAHmNJr4hTyya9G0fNbtqxbWQFGPig1f-gk"
 
 # Start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Hello! 👋 Send me any number and I will subtract it from 1255."
+        "Hello! 👋 Enter Expenditure."
     )
 
 # Subtraction logic
